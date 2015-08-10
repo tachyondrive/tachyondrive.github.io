@@ -1,0 +1,35 @@
+h1
+{color:#56f;
+}
+body
+{background-color:#273f49;
+	max-width:500px;
+	margin:0 auto;
+	font-size: 20px
+
+ }
+ ul{
+ 	background-color:#fff; 
+ 	font-size:2em;
+ 	margin:40px 10px 5px 10px;
+
+
+ }
+
+
+ ol{
+ 	padding:20px; 
+ 	background-color:#fff;
+ 	font-size: 2em;
+ 	margin:0 auto;
+
+}
+
+#black{
+	background-color:#273f49;
+
+}
+.white{
+	color:red;
+	background-color: #273f49
+}
