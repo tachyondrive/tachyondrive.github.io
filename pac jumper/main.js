@@ -253,6 +253,9 @@ function init() {
         dir = "right";
         player.isMovingRight = true;
       }
+      else if (key==38) {
+        player.vy = -8;
+      }
       
       if(key == 32) {
         if(firstRun === true)
@@ -272,6 +275,7 @@ function init() {
         dir = "right";
         player.isMovingRight = false;
       }
+
     };
 
     //Accelerations produces when the user hold the keys
@@ -566,7 +570,9 @@ function playerJump() {
     } else if (key == 39) {
       dir = "right";
       player.isMovingRight = true;
-    }
+    }else if (key== 38) {
+      dir = ""}
+
   
     if(key == 32) {
       if(firstRun === true) {
